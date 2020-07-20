@@ -1,27 +1,28 @@
 {
-  "name": "mcff-homepage",
-  "version": "0.0.2",
-  "description": null,
-  "keywords": [],
-  "main": "src/index.js",
+  "name": "mcff",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "@chakra-ui/core": "0.5.2",
     "@emotion/core": "10.0.27",
     "@emotion/styled": "10.0.27",
-    "emotion-theming": "10.0.27",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
-    "react-scripts": "3.0.1"
+    "emotion-theming": "10.0.27"
   },
   "devDependencies": {
     "react-scripts": "1.0.0",
     "typescript": "3.3.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   },
   "browserslist": [
     ">0.2%",
